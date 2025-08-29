@@ -100,7 +100,7 @@ xgboost  # optional; script will skip if unavailable
 joblib
 ```
 
-## Reproducing Your Claimed Result (ROC AUC 0.97 with LR)
+Result (ROC AUC 0.97 with LR)
 
 Once trained, check `reports/logreg_report.json` and `reports/summary.txt`. Your **test ROC AUC** will be printed in the console and written to the report files. If you achieved **0.97** previously, the same data & settings should result in a similar score.
 
